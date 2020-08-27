@@ -1,0 +1,23 @@
+{
+  "name": "slackbot-githubpr",
+  "version": "0.0.1",
+  "description": "GitHub PR Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "github",
+    "pr"
+  ],
+  "author": "Jose Garcia <jose.garcia@vokal.io>",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^18.0.2",
+    "@octokit/webhooks": "^7.6.5",
+    "@slack/interactive-messages": "^1.7.0",
+    "@slack/web-api": "^5.11.0",
+    "dotenv": "^8.2.0"
+  }
+}

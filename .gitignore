@@ -1,0 +1,7 @@
+node_modules/
+
+pull_request.json
+repos.json
+
+.env
+.vscode/
